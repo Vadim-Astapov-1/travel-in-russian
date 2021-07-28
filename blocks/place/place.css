@@ -1,0 +1,44 @@
+.place {
+  max-width: 100%;
+  margin-top: 80px;
+  /* Доделать */
+  display: grid;
+  grid-template-columns: minmax(320px, 460px) minmax(320px, 484px);
+  grid-template-rows: auto;
+  row-gap: 48px;
+  column-gap: 40px;
+}
+
+.place:first-child {
+  margin-top: 0;
+}
+
+@media all and (max-width: 1024px) {
+  .place {
+    grid-template-columns: minmax(320px, 440px) minmax(320px, 456px);
+    column-gap: 32px;
+  }
+}
+
+@media all  and (max-width: 768px) {
+  .place {
+    grid-template-columns:  minmax(320px, 340px) minmax(288px, 352px);
+    column-gap: 28px;
+    margin-top: 73px;
+  }
+}
+
+@media screen and (max-width: 694px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .place {
+    margin-top: 50px;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+
+}

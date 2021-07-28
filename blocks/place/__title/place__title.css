@@ -1,0 +1,32 @@
+.place__title {
+  max-width: 460px;
+  margin: 0;
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  color: #fff;
+}
+
+@media all and (max-width: 890px) {
+  /* Fix - вылезает за блок */
+  .place__title {
+    font-size: 60px;
+    line-height: 64px;
+  }
+}
+
+@media all  and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .place__title {
+    max-width: calc(100% - 32px);
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 16px;
+  }
+}
