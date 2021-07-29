@@ -13,6 +13,6 @@ _flexbox_, _grid-layout_ и с отличием псевдоэлемент _::be
 для свойства __grid-template-columns__ (желательно с _repeat_) чем:
 ```grid-template-columns: minmax(320px, 460px) minmax(320px, 484px);```
 
-### ССылка на проект:
+### Сcылка на проект:
 
 https://vadim-astapov-1.github.io/travel-in-russian/
