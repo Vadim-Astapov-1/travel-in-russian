@@ -8,7 +8,6 @@
 }
 
 @media all and (max-width: 890px) {
-  /* Fix - вылезает за блок */
   .place__title {
     font-size: 60px;
     line-height: 64px;

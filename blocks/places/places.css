@@ -1,5 +1,4 @@
 .places {
-  /* для ширины страницы выше 1280px зафиксируем */
   max-width: 984px;
   margin: 92px auto 0;
   display: flex;

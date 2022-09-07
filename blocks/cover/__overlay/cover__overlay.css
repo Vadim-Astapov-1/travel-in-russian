@@ -1,5 +1,4 @@
 .cover__overlay {
-  /* для ширины страницы выше 1280px зафиксируем */
   max-width: 100%;
   margin: 0;
   position: relative;
@@ -34,7 +33,6 @@
     padding-bottom: 195px;
   }
 }
-
 
 @media all  and (max-width: 768px) {
   .cover__overlay {
