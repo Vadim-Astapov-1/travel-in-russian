@@ -4,7 +4,8 @@
 
 **Адрес страницы:** https://vadim-astapov-1.github.io/travel-in-russian
 
-картинка
+![travel](https://user-images.githubusercontent.com/86553552/188837418-6c9abd05-4efa-4f88-94b5-72044e745326.png)
+
 
 ## Технологии
 
